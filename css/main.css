@@ -1,0 +1,210 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 1.25em 3em;
+}
+
+.search input {
+    font-size: 1.1em;
+    padding: 0.8em 1em;
+    border-radius: 3em;
+    border: 1px solid grey;
+    color: grey;
+}
+
+.search input:focus {
+    outline: 0;
+}
+
+.search form {
+    margin-left: 1.5em;
+    position: relative;
+}
+
+.search button {
+    position: absolute;
+    right: 0.5em;
+    top: 25%;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.5em;
+    color: grey;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.link-text {
+    padding: 1em 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: 500ms;
+}
+
+.link-text:hover {
+    color: rgb(255, 38, 38);
+    box-shadow: 0 2px 0 rgb(255, 38, 38);
+}
+
+.cart {
+    margin-left: 0.5em;
+    margin-right: 1.5em;
+    position: relative;
+}
+
+.cart .iconify {
+    font-size: 2em;
+    color: rgb(132, 25, 146);
+}
+
+.cart-count {
+    color: white;
+    background-color: rgb(255, 38, 38);
+    text-align: center;
+    border-radius: 1em;
+    font-size: 0.8em;
+    padding: 0.2em 0.5em;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}
+
+.link-button {
+    background-color: rgb(132, 25, 146);
+    color: white;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+header {
+    background-image: url("/img/vintage-wallpaper.png");
+}
+
+.header-container {
+    display: flex;
+    max-height: 500px;
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+}
+
+.header-content {
+    padding: 5em 1em;
+    align-self: flex-end;
+}
+
+.header-content form {
+    position: relative;
+}
+
+.header-content input {
+    padding: 1em 0.5em;
+    border: 0;
+    width: 100%;
+}
+
+.header-content input:focus {
+    outline: 0;
+}
+
+.header-content button {
+    position: absolute;
+    right: -80px;
+    top: 0;
+    background-color: rgb(255, 38, 38);
+    color: white;
+    border: 0;
+    font-size: 2em;
+    height: 100%;
+    padding: 0 0.5em;
+    cursor: pointer;
+}
+
+.header-content h1 {
+    font-size: 3em;
+}
+
+.header-content h2 {
+    font-weight: normal;
+    margin-bottom: 1.5em;
+}
+
+.header-bg {
+    background-image: url("http://via.placeholder.com/1000x800");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
+.course-selection {
+    padding-top: 2em;
+    text-align: center;
+}
+
+.course-selection h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.course-selection p {
+    font-size: 1.1em;
+}
+
+.course-selection-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.course-card {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    padding: 2em;
+}
+
+.course-card h4 {
+    font-size: 1.1em;
+}
+
+.course-cost {
+    position: absolute;
+    top: 3em;
+    right: 3em;
+    background-color: rgb(255, 38, 38);
+    color: white;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.course-stars {
+    display: flex;
+    align-items: center;
+}
+
+.course-stars .iconify {
+    color: rgb(255, 102, 0);
+    font-size: 1.25em;
+    letter-spacing: -0.25em;
+}
+
+.course-review {
+    margin-left: 0.5em;
+}
